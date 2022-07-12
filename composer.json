@@ -1,0 +1,25 @@
+{
+  "name": "aper/carriertest",
+  "type": "prestashop-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Aper"
+    }
+  ],
+  "require": {
+    "composer/installers": "^2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    },
+    "optimize-autoloader": true
+  },
+  "description": "Aper Carrier Test",
+  "autoload": {
+    "psr-4": {
+      "Aper\\CarrierTest\\": "./src"
+    }
+  }
+}

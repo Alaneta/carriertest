@@ -1,0 +1,6 @@
+# Docs: https://gitlab.com/apernet/bazaar/pipelines/gitlab-ci/
+
+include:
+- project: 'apernet/bazaar/pipelines/gitlab-ci'
+  file: 
+    - '/composer/templates/basic-module.v1.yml'
